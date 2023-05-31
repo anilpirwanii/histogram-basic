@@ -1,0 +1,76 @@
+body {
+    background-color: white;
+    font-family: Times New Roman;
+}
+
+h2 {
+    width: 250px;
+    height: fit-content;
+    font-weight: 1000;
+    font-family: sans-serif
+}
+
+/* h4 {
+   
+    width: auto;
+    position: relative;
+    top: 0px;
+    right: 50px;
+    clear: top;
+} */
+
+.container {
+    display: flex;
+}
+
+.left-table {
+    flex:1;
+    width: 600px;
+}
+
+.right-tables {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-table {
+    flex: 1;
+}
+
+table {
+    width: 250px;
+    height: 100%;
+    /* border-collapse: collapse; */
+    font-size: small;
+    background-color: #e9eff1;
+}
+
+input[type="text"] {
+    text-align: right;
+    width: 100%;
+    height: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.feedback {
+    color: red;
+    font-style: italic;
+}
+
+.histogram .hist-inner {
+    background-color: black;
+    height: 20px;
+    width: 0;
+  }
+
+  .column1{
+    flex:1;
+  }
+  .column2{
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+  }
+
